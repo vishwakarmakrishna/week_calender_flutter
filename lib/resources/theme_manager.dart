@@ -5,5 +5,6 @@ ThemeData getApplicationTheme() {
   return ThemeData(
     useMaterial3: true,
     fontFamily: Roboto.roboto,
+    colorSchemeSeed: Colors.blue,
   );
 }
